@@ -48,5 +48,3 @@ cat << EOF
  ${greenf}■■${reset}${boldon}${greenf}■■${reset}${boldon}${redf}■■${reset}   ${yellowf}■■${reset}${boldon}${yellowf}■■${reset}${boldon}${greenf}■■${reset}   ${bluef}■■${reset}${boldon}${bluef}■■${reset}${boldon}${yellowf}■■${reset}   ${boldon}${cyanf}■■${reset}${purplef}■■${reset}${boldon}${purplef}■■${reset}   ${boldon}${purplef}■■${reset}${boldon}${cyanf}■■${reset}${boldon}${bluef}■■${reset}   ${bluef}■■${reset}${boldon}${purplef}■■${reset}${boldon}${cyanf}■■${reset} 
  
 EOF
-
-$SHELL

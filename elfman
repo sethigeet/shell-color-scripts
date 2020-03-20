@@ -46,5 +46,3 @@ cat << EOF
  ${boldon}${whitef} ▀▀▀▀ ▀▀▀▀${reset}
  
 EOF
-
-$SHELL

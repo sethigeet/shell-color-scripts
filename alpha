@@ -40,5 +40,3 @@ ${redf}   ██  ████${reset} ${greenf}██  ████ ${reset}${y
 ${redf}   ██    ██${reset} ${greenf}██████   ${reset}${yellowf}████████${reset} ${bluef}██████  ${reset} ${purplef}████████${reset} ${cyanf}██       ${reset} 
  
 EOF
-
-$SHELL

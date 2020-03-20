@@ -33,5 +33,3 @@ $bld
             $f1  ▀  ▀        $f2  ▀  ▀        $f4  ▀  ▀        $f5  ▀  ▀        $f6  ▀  ▀       
 $rst  
 EOF
-
-$SHELL

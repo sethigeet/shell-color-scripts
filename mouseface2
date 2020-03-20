@@ -43,5 +43,3 @@ ${redf}      =■=    ${reset} ${greenf}      =■=    ${reset} ${yellowf}      
 
  
 EOF
-
-$SHELL

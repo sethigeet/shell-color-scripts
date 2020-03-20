@@ -47,5 +47,3 @@ ${boldon}
  ${redf} ▀██▄   ▄██▀   ${greenf} ▀██▄   ▄██▀   ${yellowf} ▀██▄   ▄██▀   ${bluef} ▀██▄   ▄██▀   ${purplef} ▀██▄   ▄██▀   ${cyanf} ▀██▄   ▄██▀ 
 ${reset} 
 EOF
-
-$SHELL

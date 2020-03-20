@@ -49,5 +49,3 @@ ${redf}     ▀ ▀   ${greenf}     ▀ ▀   ${yellowf}     ▀ ▀   ${bluef} 
 ${reset}
 
 EOF
-
-$SHELL

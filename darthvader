@@ -50,5 +50,3 @@ ${redf} █ ▄█▬▄▄▬█▄ █  ${greenf}█ ▄█▬▄▄▬█▄ 
 ${reset}
 
 EOF
-
-$SHELL

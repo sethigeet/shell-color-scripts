@@ -43,5 +43,3 @@ cat << EOF
 
 
 EOF
-
-$SHELL

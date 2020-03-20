@@ -36,5 +36,3 @@ cat << EOF
     ${redf}█   █${reset}     ${blackf}|${reset}     ${greenf}█   █${reset}     ${blackf}|${reset}     ${yellowf}█   █${reset}     ${blackf}|${reset}     ${bluef}█   █${reset}     ${blackf}|${reset}     ${purplef}█   █${reset}     ${blackf}|${reset}     ${cyanf}█   █${reset}
               ${blackf}|               |               |               |               |${reset}
 EOF
-
-$SHELL

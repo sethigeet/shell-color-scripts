@@ -61,5 +61,3 @@ case $1 in
 	a)	blocks && numbers;;
 	*)  blocks && numbers;;
 esac
-
-$SHELL

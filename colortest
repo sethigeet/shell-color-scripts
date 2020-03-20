@@ -28,5 +28,3 @@
       echo;
     done
     echo
-
-$SHELL
