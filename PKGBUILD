@@ -1,4 +1,5 @@
-# Maintainer: Kunkgg <goukun07@gmail.com>
+# Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
+# Contributor: Kunkgg <goukun07@gmail.com>
 pkgname=shell-color-scripts
 pkgver=0.1
 pkgrel=1
