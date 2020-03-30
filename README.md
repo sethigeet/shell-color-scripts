@@ -27,8 +27,8 @@ Download the source code from this repository or use a git clone:
 	git clone https://gitlab.com/dwt1/shell-color-scripts.git
 	cd shell-color-scripts
     rm -rf /opt/shell-color-scripts || return 1
-    sudo mkdir -p /opt/shell-color-scripts || return 1
-    sudo cp -rf colorscripts/* /usr/lib/shell-color-scripts
+    sudo mkdir -p /opt/shell-color-scripts/colorscripts || return 1
+    sudo cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
     sudo cp colorscript.sh /usr/bin/colorscript
 
     # optional for zsh completion
@@ -36,7 +36,7 @@ Download the source code from this repository or use a git clone:
 
 # Usage
 
-    ❯ colorscript --help
+    colorscript --help
     Description: A collection of terminal color scripts.
 
     Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
@@ -46,11 +46,11 @@ Download the source code from this repository or use a git clone:
       -e, --exec, exec    	Run a spesific color script by SCRIPT NAME or INDEX.
 
 
-# The Scripts Are Located in /opt/shell-color-scripts
+# The Scripts Are Located in /opt/shell-color-scripts/colorscripts
 
 The source for shell-color-scripts is placed in:
 
-	/opt/shell-color-scripts
+	/opt/shell-color-scripts/colorscripts
 
 For even more fun, add the following line to your .bashrc or .zshrc and you will run a random color script each time you open a terminal:
 

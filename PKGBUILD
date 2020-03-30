@@ -25,10 +25,10 @@ validpgpkeys=()
 package() {
     echo "$srcdir/$pkgname"
 	cd "$srcdir/$pkgname"
-    rm -rf "${pkgdir}/opt/${pkgname}"
-    mkdir -p "${pkgdir}"/opt/${pkgname}
+    rm -rf "${pkgdir}/opt/${pkgname}/colorscripts"
+    mkdir -p "${pkgdir}/opt/${pkgname}/colorscripts"
 
-    install -Dm755 colorscripts/* -t "${pkgdir}"/opt/${pkgname}
+    install -Dm755 colorscripts/* -t "${pkgdir}/opt/${pkgname}/colorscripts"
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
     install -Dm755 colorscript.sh "${pkgdir}"/usr/bin/colorscript
