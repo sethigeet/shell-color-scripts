@@ -1,6 +1,6 @@
 #compdef colorscript
 
-DIR_COLORSCRIPTS="/opt/shell-color-scripts"
+DIR_COLORSCRIPTS="/opt/shell-color-scripts/colorscripts"
 
 function _colorscript {
     local curcontext="$curcontext" state line
