@@ -1,4 +1,3 @@
-
 # Shell Color Scripts
 
 ![Screenshot of shell-color-scripts](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles12.png)
@@ -14,7 +13,7 @@ All you need to do is download the PKGBUILD from this repository.  Then run the 
 
 This will create a file that ends in .pkg.tar.xz (for example, shell-color-scripts-0.1-1-x86_64.pkg.tar.xz).  Then run:
 
-	sudo pacman -U *.pkg.tar.xz
+	sudo pacman -U *.pkg.tar.zst
 
 Alternately, you could also install shell-color-scripts from the AUR using an AUR helper such as yay:
 
