@@ -3,9 +3,10 @@
 # Simple CLI for shell-color-scripts
 
 DIR_COLORSCRIPTS="/opt/shell-color-scripts/colorscripts"
+LS_CMD="$(command -v ls)"
 fmt_help="  %-20s\t%-54s\n"
-list_colorscripts="$(/usr/bin/ls "${DIR_COLORSCRIPTS}" | cut -d ' ' -f 1 | nl)"
-length_colorscripts="$(/usr/bin/ls "${DIR_COLORSCRIPTS}" | wc -l)"
+list_colorscripts="$($LS_CMD "${DIR_COLORSCRIPTS}" | cut -d ' ' -f 1 | nl)"
+length_colorscripts="$($LS_CMD "${DIR_COLORSCRIPTS}" | wc -l)"
 function _help() {
     echo "Description: A collection of terminal color scripts."
     echo ""
@@ -18,7 +19,7 @@ function _help() {
 }
 
 function _list() {
-    echo "There are "$(/usr/bin/ls "${DIR_COLORSCRIPTS}" | wc -l)" installed color scripts:"
+    echo "There are "$($LS_CMD "${DIR_COLORSCRIPTS}" | wc -l)" installed color scripts:"
     echo "${list_colorscripts}"
 }
 
