@@ -29,6 +29,7 @@ package() {
     mkdir -p "${pkgdir}/opt/${pkgname}/colorscripts"
 
     install -Dm755 colorscripts/* -t "${pkgdir}/opt/${pkgname}/colorscripts"
+    install -Dm755 zsh_completion/* -t "${pkgdir}/opt/${pkgname}/zsh_completion"
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
     install -Dm755 colorscript.sh "${pkgdir}"/usr/bin/colorscript
