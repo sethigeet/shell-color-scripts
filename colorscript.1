@@ -10,7 +10,7 @@ colorscript [-OPTION] [SCRIPT NAME]
 
 .SH "DESCRIPTION"
 .PP
-colorscript is the program that selects and runs the scripts that were installed with  shell-color-scripts.  colorscript can be used to run a specific shell color script, or you can use colorscript to run a random shell color script.  Many users will want to add the appropriate colorscript command to their bash/fish/zsh configs so that they always get a shell color script when they launch a terminal or enter the shell.
+colorscript is the program that selects and runs the scripts that were installed with shell-color-scripts.  colorscript can be used to run a specific shell color script, or you can use colorscript to run a random shell color script.  Many users will want to add the appropriate colorscript command to their bash/fish/zsh configs so that they always get a shell color script when they launch a terminal or enter the shell.
 
 .SH "OPTIONS"
 .SS "-h, --help, help"
@@ -40,8 +40,8 @@ The shell color scripts directory.
 Runs a random shell colorscript.  Add this command to your bash/fish/zsh config file, and now when you open a terminal or start a new shell, you will get a random shell color script displayed.
 .SS "colorscript -l"
 .PP
-Get a complete listing of available shell color scripts.
-.SS "colorscript -e NAME"
+Get a complete listing of available shell color scripts.  You get the INDEX (number) and the NAME.
+.SS "colorscript -e [INDEX or NAME]"
 .PP
 Runs a specific shell color script.
 

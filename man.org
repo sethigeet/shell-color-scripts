@@ -30,8 +30,8 @@ The shell color scripts directory.
 ** colorscript random
 Runs a random shell colorscript.  Add this command to your bash/fish/zsh config file, and now when you open a terminal or start a new shell, you will get a random shell color script displayed.
 ** colorscript -l
-Get a complete listing of available shell color scripts.
-** colorscript -e NAME
+Get a complete listing of available shell color scripts.  You get the INDEX (number) and the NAME.
+** colorscript -e [INDEX or NAME]
 Runs a specific shell color script.
 
 * AUTHOR
