@@ -5,7 +5,7 @@
 A collection of terminal color scripts I've accumulated over the years.
 Includes 41 beautiful terminal color scripts.
 
-# Installing shell-color-scripts on Arch Linux
+## Installing shell-color-scripts on Arch Linux
 
 All you need to do is download the PKGBUILD from this repository. Then run the following command:
 
@@ -19,7 +19,7 @@ This will create a file that ends in .pkg.tar.xz (for example, shell-color-scrip
 sudo pacman -U *.pkg.tar.zst
 ```
 
-# Installing shell-color-scripts on other Linux distrtibutions
+## Installing shell-color-scripts on other Linux distrtibutions
 
 Download the source code from this repository or use a git clone:
 
@@ -33,7 +33,7 @@ Download the source code from this repository or use a git clone:
     # optional for zsh completion
     sudo cp zsh_completion/_colorscript /usr/share/zsh/site-functions
 
-# Usage
+## Usage
 
 ```
 colorscript --help
@@ -46,7 +46,7 @@ Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
   -e, --exec, exec    	Run a spesific color script by SCRIPT NAME or INDEX.
 ```
 
-# The Scripts Are Located in /opt/shell-color-scripts/colorscripts
+## The Scripts Are Located in /opt/shell-color-scripts/colorscripts
 
 The source for shell-color-scripts is placed in:
 
