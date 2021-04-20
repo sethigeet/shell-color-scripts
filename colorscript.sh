@@ -49,7 +49,7 @@ function _run_by_name() {
 }
 
 function _run_by_index() {
-    if [[ "$1" -gt 0 && "$1" -lt "${length_colorscripts}" ]]; then
+    if [[ "$1" -gt 0 && "$1" -le "${length_colorscripts}" ]]; then
 
         colorscript="$(echo  "${list_colorscripts}" | sed -n ${1}p \
             | tr -d ' ' | tr '\t' ' ' | cut -d ' ' -f 2)"
