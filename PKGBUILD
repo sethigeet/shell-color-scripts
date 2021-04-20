@@ -1,5 +1,4 @@
-# Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
-# Contributor: Kunkgg <goukun07@gmail.com>
+# Maintainer: Geet Sethi
 pkgname=shell-color-scripts
 _pkgname=shell-color-scripts
 pkgver=1.0.r45.72dac2b

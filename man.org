@@ -1,5 +1,6 @@
 #+TITLE: colorscript
-#+AUTHOR: Derek Taylor (https://gitlab.com/dwt1/shell-color-scripts/)
+#+AUTHOR: Geet Sethi (https://github.com/sethigeet)
+#+EXPORT_FILE_NAME: ./colorscript.1
 
 * NAME
 colorscript - run various shell color scripts
@@ -35,4 +36,4 @@ Get a complete listing of available shell color scripts.  You get the INDEX (num
 Runs a specific shell color script.
 
 * AUTHOR
-Derek Taylor (https://gitlab.com/dwt1/shell-color-scripts) 
+Geet Sethi (https://github.com/sethigeet) 
