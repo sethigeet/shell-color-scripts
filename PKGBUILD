@@ -2,11 +2,11 @@
 # Contributor: Kunkgg <goukun07@gmail.com>
 pkgname=shell-color-scripts
 _pkgname=shell-color-scripts
-pkgver=1.0
+pkgver=1.0.r45.72dac2b
 pkgrel=1
 pkgdesc="A CLI for the collection of terminal color scripts. Includes 48 beautiful terminal color scripts."
 arch=('i686' 'x86_64')
-url="git+https://github.com/sethigeet/shell-color-scripts.git"
+url="https://github.com/sethigeet/shell-color-scripts.git"
 license=('MIT')
 groups=()
 depends=(binutils)
