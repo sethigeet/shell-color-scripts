@@ -1,7 +1,7 @@
 # Maintainer: Geet Sethi
 pkgname=shell-color-scripts
 _pkgname=shell-color-scripts
-pkgver=1.0.r51.5b9db1f
+pkgver=1.0.r53.984cf4f
 pkgrel=1
 pkgdesc="A CLI for the collection of terminal color scripts. Includes 48 beautiful terminal color scripts."
 arch=('i686' 'x86_64')
