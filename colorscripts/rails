@@ -29,7 +29,6 @@ cat <<EOF
 
  ${redf}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  ${greenf}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  ${yellowf}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  ${boldon}${redfbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  ${greenfbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  ${yellowfbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝${reset}
-EOF
  ${bluef}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  ${purplef}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗  ${cyanf}╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗
  ${boldon}${bluefbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  ${purplefbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝  ${cyanfbright}╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝${reset}
 

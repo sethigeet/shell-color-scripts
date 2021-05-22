@@ -17,7 +17,6 @@ cyanf="${esc}[36m"
 redfbright="${esc}[91m"
 greenfbright="${esc}[92m"
 yellowfbright="${esc}[93m"
-EOF
 purplefbright="${esc}[95m"
 cyanfbright="${esc}[96m"
 

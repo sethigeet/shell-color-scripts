@@ -42,7 +42,6 @@ ${tuxfg}${tuxbg}
             ${whiteb}█████               ███ ███${tuxbg}              
             ${yellowb}█▀▀███${whiteb}             █████████${tuxbg}             
            ▄${yellowb}█   ███${whiteb}           █${yellowb}▀ ████  ▀█${tuxbg}            
-EOF
         █${yellowb}         ████${whiteb}     █  █${yellowb}         ██${tuxbg}           
          █${yellowb}         ██${whiteb}       █ █${yellowb}          ▀█${tuxbg}          
         █${yellowb}           █${whiteb}      █  █${yellowb}          █${tuxbg}           
